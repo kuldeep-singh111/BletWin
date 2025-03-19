@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-alex {
+  font-family: var(--font-alex-brush), cursive;
+}
+.font-alegreya {
+  font-family: var(--font-alegreya-sc), serif;
+}
+.font-aleo {
+  font-family: var(--font-aleo), serif;
+}
+
+.font-abril {
+  font-family: var(--font-abril), serif;
+}
+.font-agbalumo {
+  font-family: var(--font-agbalumo), serif;
+}
+.font-arizonia {
+  font-family: var(--font-arizonia), serif;
+}

@@ -1,0 +1,95 @@
+{
+  "success": true,
+  "data": {
+    "live_matches": [
+      {
+        "match_id": 1,
+        "teams": "Team A vs Team B",
+        "start_time": "2024-11-15T18:00:00Z",
+        "status": "InProgress",
+        "joined": true
+      },
+      {
+        "match_id": 4,
+        "teams": "Team G vs Team H",
+        "start_time": "2024-11-15T19:30:00Z",
+        "status": "InProgress",
+        "joined": false
+      },
+      {
+        "match_id": 5,
+        "teams": "Team I vs Team J",
+        "start_time": "2024-11-15T20:00:00Z",
+        "status": "InProgress",
+        "joined": true
+      }
+    ],
+    "upcoming_matches": [
+      {
+        "match_id": 2,
+        "teams": "Team C vs Team D",
+        "start_time": "2024-11-16T14:00:00Z",
+        "status": "Scheduled",
+        "joined": false
+      },
+      {
+        "match_id": 6,
+        "teams": "Team K vs Team L",
+        "start_time": "2024-11-16T16:00:00Z",
+        "status": "Scheduled",
+        "joined": true
+      },
+      {
+        "match_id": 7,
+        "teams": "Team M vs Team N",
+        "start_time": "2024-11-16T18:30:00Z",
+        "status": "Scheduled",
+        "joined": false
+      },
+      {
+        "match_id": 8,
+        "teams": "Team O vs Team P",
+        "start_time": "2024-11-16T20:00:00Z",
+        "status": "Scheduled",
+        "joined": false
+      }
+    ],
+    "completed_matches": [
+      {
+        "match_id": 3,
+        "teams": "Team E vs Team F",
+        "start_time": "2024-11-14T16:00:00Z",
+        "status": "Final",
+        "joined": true
+      },
+      {
+        "match_id": 9,
+        "teams": "Team Q vs Team R",
+        "start_time": "2024-11-14T14:00:00Z",
+        "status": "Final",
+        "joined": true
+      },
+      {
+        "match_id": 10,
+        "teams": "Team S vs Team T",
+        "start_time": "2024-11-14T18:30:00Z",
+        "status": "Final",
+        "joined": false
+      },
+      {
+        "match_id": 11,
+        "teams": "Team U vs Team V",
+        "start_time": "2024-11-14T20:30:00Z",
+        "status": "Final",
+        "joined": true
+      },
+      {
+        "match_id": 12,
+        "teams": "Team W vs Team X",
+        "start_time": "2024-11-13T19:00:00Z",
+        "status": "Final",
+        "joined": false
+      }
+    ]
+  }
+}
