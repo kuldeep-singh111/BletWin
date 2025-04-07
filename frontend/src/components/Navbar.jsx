@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className="p-2 flex justify-between bg-transparent items-center fixed top-0 left-0 w-full z-50">
             <div className="flex items-center md:ml-12">
-                <Link href={'/'}>   <Image src="/Images/lyaim-logo.png" alt="Logo" width={50} height={30} className="w-14 max-sm:w-10 md:w-full cursor-pointer rounded-full" /> </Link>
+                <Link href={'/'}>   <Image src="/Images/bletwin-logo.png" alt="Logo" width={50} height={30} className="w-14 max-sm:w-10 md:w-full cursor-pointer rounded-md" /> </Link>
             </div>
 
             <div className="flex items-center space-x-4 md:space-x-8 text-white md:mr-12">
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500">  <Link href={'/help'}>  Help </Link></li>
                             <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500">   <Link href={'/about'}> About </Link></li>
                             <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500"> <Link href={'/contact'}>  Contact </Link></li>
-                        
+
                             <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500"><Link href={'/profile'}>Profile</Link></li>
                             {/* <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500"><Link href={'/contest'}>Contest</Link></li>
                             <li className="px-4 py-2 font-bold hover:bg-gray-600 hover:bg-opacity-20 hover:text-orange-500"><Link href={'/team-choose'}>Team choose</Link></li>

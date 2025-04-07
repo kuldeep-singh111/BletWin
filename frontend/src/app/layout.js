@@ -51,7 +51,7 @@ const arizonia = Arizonia({
 })
 
 export const metadata = {
-  title: "Lyaim Tech Fantasy",
+  title: "BletWin Fantasy Gaming Platform",
   description: "",
 };
 

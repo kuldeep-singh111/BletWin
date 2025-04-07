@@ -19,7 +19,7 @@ const corsOptions = {
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
-      callback(new Error("Not allowed by Lyaim Tech CORS"));
+      callback(new Error("Not allowed by Bletwin CORS"));
     }
   },
   credentials: true, //  Allow cookies & authentication headers
@@ -36,7 +36,7 @@ app.use(cookieParser());
 
 ConnectToDB(process.env.MONGO_URL)
   .then(() => {
-    console.log(" lyaim tech DataBase is Connected");
+    console.log(" BletWin DataBase is Connected");
   })
   .catch((err) => {
     console.log("Error in Mongodb Connection", err);
@@ -49,5 +49,5 @@ app.get("/kuldeep", (req, res) => {
 app.use(router);
 
 app.listen(PORT, () => {
-  console.log(`Lyaim Tech Server is Started at ${PORT} Port`);
+  console.log(`BletWin Server is Started at ${PORT} Port`);
 });
