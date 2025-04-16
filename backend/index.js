@@ -10,8 +10,9 @@ const PORT = process.env.PORT;
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://www.lyaim.com",
-  "https://lyaim.com",
+  "https://bletwin.vercel.app"
+  // "https://www.lyaim.com",
+  // "https://lyaim.com",
 ];
 
 const corsOptions = {
