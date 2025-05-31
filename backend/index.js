@@ -16,13 +16,17 @@ const allowedOrigins = [
 ];
 
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by Bletwin CORS"));
-    }
-  },
+  // origin: function (origin, callback) {
+  //   if (!origin || allowedOrigins.includes(origin)) {
+  //     callback(null, true);
+  //   } else {
+  //     callback(new Error("Not allowed by Bletwin CORS"));
+  //   }
+  // },
+  origin: [
+    "https://bletwin.vercel.app",
+    "http://localhost:3000"
+  ],
   credentials: true, //  Allow cookies & authentication headers
   methods: ["GET", "POST", "PUT", "DELETE"], //  Only allow essential HTTP methods
   allowedHeaders: ["Content-Type", "Authorization"], //  Restrict allowed headers
